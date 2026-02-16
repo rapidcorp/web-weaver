@@ -1,0 +1,20 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="16" fill="#0F172A"/>
+  
+  <!-- Police badge/shield shape -->
+  <path d="M16 2L22 6V14C22 20 16 26 16 26C16 26 10 20 10 14V6L16 2Z" fill="#F59E0B" stroke="#F59E0B" stroke-width="0.5"/>
+  
+  <!-- Star in center -->
+  <path d="M16 8L17.5 12L21.5 12L18.5 14.5L20 18.5L16 16L12 18.5L13.5 14.5L10.5 12L14.5 12L16 8Z" fill="#0F172A"/>
+  
+  <!-- Subtle film strip elements -->
+  <rect x="6" y="22" width="2" height="2" fill="#F59E0B" opacity="0.6"/>
+  <rect x="10" y="22" width="2" height="2" fill="#F59E0B" opacity="0.6"/>
+  <rect x="14" y="22" width="2" height="2" fill="#F59E0B" opacity="0.6"/>
+  <rect x="18" y="22" width="2" height="2" fill="#F59E0B" opacity="0.6"/>
+  <rect x="22" y="22" width="2" height="2" fill="#F59E0B" opacity="0.6"/>
+  
+  <!-- Police rank stripes (subtle) -->
+  <rect x="12" y="28" width="8" height="1" fill="#F59E0B" opacity="0.4"/>
+</svg>
