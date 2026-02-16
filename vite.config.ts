@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => ({
       overlay: false,
     },
   },
-  base: "/web-weaver/",
+  base: mode === "production" ? "/web-weaver/" : "/",
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
     alias: {
