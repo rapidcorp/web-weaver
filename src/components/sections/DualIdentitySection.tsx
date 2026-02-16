@@ -56,7 +56,7 @@ const DualIdentitySection = () => {
           <ul className="space-y-4 font-sans text-primary-foreground/80">
             <li className="flex items-start gap-3">
               <span className="w-1.5 h-1.5 rounded-full bg-gold mt-2 shrink-0" />
-              <span>Producer of "Sagwaan" — IMDb 7.2/10</span>
+              <span>Producer of "Sagwaan" — BookMyShow 9.6/10</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="w-1.5 h-1.5 rounded-full bg-gold mt-2 shrink-0" />

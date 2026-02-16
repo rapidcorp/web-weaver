@@ -23,7 +23,7 @@ const achievements = [
   {
     icon: Film,
     title: "Cinematic Success",
-    stat: "IMDb 7.2",
+    stat: "BookMyShow 9.6",
     desc: "Producer of Sagwaan — a film that tells the untold stories of real heroes.",
   },
 ];

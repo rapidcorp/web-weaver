@@ -7,7 +7,7 @@ const timelineData = [
   { year: "2007–2014", title: "The Dark Years", desc: "Falsely implicated and spent 7+ years in custody — but never broke. Earned 3 degrees during this time." },
   { year: "2014", title: "Complete Acquittal", desc: "Honorably acquitted by the Rajasthan High Court. Truth and justice prevailed." },
   { year: "2015+", title: "Return to Duty — CID", desc: "Reinstated and posted to CID, continuing to serve with distinction." },
-  { year: "2026", title: "Sagwaan Releases", desc: "Debut film as producer — Sagwaan — releases to critical acclaim with IMDb 7.2/10." },
+  { year: "2026", title: "Sagwaan Releases", desc: "Debut film as producer — Sagwaan — releases to critical acclaim with BookMyShow 9.6/10." },
 ];
 
 const TimelineItem = ({
