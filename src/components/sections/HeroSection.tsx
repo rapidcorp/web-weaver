@@ -11,6 +11,16 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_hsl(var(--gold)/0.08)_0%,_transparent_70%)]" />
 
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
+        {/* Profile Photo */}
+        <div className="mb-8 opacity-0 animate-fade-up" style={{ animationDelay: "0.1s" }}>
+          <div className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full overflow-hidden border-4 border-gold shadow-2xl">
+            <img 
+              src="/media/hero2.png" 
+              alt="Inspector Himanshu Singh Rajawat"
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
         <p
           className="text-gold font-sans text-sm md:text-base tracking-[0.3em] uppercase mb-6 opacity-0 animate-fade-up"
           style={{ animationDelay: "0.2s" }}

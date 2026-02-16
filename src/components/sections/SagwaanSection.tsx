@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const SagwaanSection = () => {
   const { ref, isVisible } = useScrollAnimation();
-  const rating = useCountUp(7.2, 2000, isVisible, 1);
+  const rating = useCountUp(9.6, 2000, isVisible, 1);
 
   return (
     <section id="sagwaan" className="py-24 md:py-32 bg-navy-deep text-primary-foreground relative overflow-hidden">
@@ -24,7 +24,7 @@ const SagwaanSection = () => {
             <div className="flex items-center gap-3 mb-6">
               <Star className="w-6 h-6 text-gold fill-gold" />
               <span className="text-3xl font-serif font-bold text-gold">{rating}</span>
-              <span className="text-primary-foreground/50 font-sans">/10 on IMDb</span>
+              <span className="text-primary-foreground/50 font-sans">/10 on BookMyShow</span>
             </div>
 
             <p className="text-primary-foreground/70 font-sans leading-relaxed mb-8">
@@ -37,33 +37,35 @@ const SagwaanSection = () => {
             <div className="flex flex-wrap gap-4">
               <Button
                 className="bg-gold text-navy-deep hover:bg-gold-light font-sans font-semibold"
-                onClick={() => window.open("https://www.imdb.com/title/tt32765208/", "_blank")}
+                onClick={() => window.open("https://in.bookmyshow.com/movies/udaipur/sagwaan/ET00481696", "_blank")}
               >
                 <ExternalLink className="w-4 h-4 mr-2" />
-                View on IMDb
+                View on BookMyShow
               </Button>
               <Button
                 variant="outline"
                 className="border-gold/30 text-gold hover:bg-gold/10 font-sans"
+                onClick={() => window.open("https://www.youtube.com/watch?v=S9n0fD5OzW0", "_blank")}
               >
+                <Film className="w-4 h-4 mr-2" />
                 Watch Trailer
               </Button>
             </div>
           </div>
 
-          {/* Poster placeholder */}
+          {/* Movie Poster */}
           <div
             className={`transition-all duration-1000 delay-300 ${
               isVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-10"
             }`}
           >
-            <div className="aspect-[2/3] bg-navy/50 border border-gold/20 rounded-lg flex items-center justify-center relative overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-t from-navy-deep via-transparent to-transparent" />
-              <div className="text-center relative z-10">
-                <Film className="w-16 h-16 text-gold/30 mx-auto mb-4" />
-                <p className="text-primary-foreground/30 font-sans text-sm">Movie Poster</p>
-                <p className="text-primary-foreground/20 font-sans text-xs mt-1">Coming Soon</p>
-              </div>
+            <div className="aspect-[16/9] rounded-lg overflow-hidden relative shadow-2xl border border-gold/20">
+              <img 
+                src="/media/saagwan_poster.png" 
+                alt="Sagwaan Movie Poster"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-navy-deep/50 via-transparent to-transparent" />
             </div>
           </div>
         </div>

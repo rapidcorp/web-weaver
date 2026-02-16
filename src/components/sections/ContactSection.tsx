@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Send, Instagram, Youtube, Mail as MailIcon } from "lucide-react";
+import { Send, Instagram, Youtube, Mail as MailIcon, Facebook } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -91,8 +91,9 @@ const ContactSection = () => {
         {/* Social links */}
         <div className="flex justify-center gap-4 mt-10">
           {[
-            { icon: Instagram, href: "#" },
-            { icon: Youtube, href: "#" },
+            { icon: Instagram, href: "https://instagram.com/@himanshusinghrajawat_cop" },
+            { icon: Facebook, href: "https://www.facebook.com/rajawathimanshusingh/" },
+            { icon: Youtube, href: "https://www.youtube.com/c/himanshusinghrajawat" },
             { icon: MailIcon, href: "mailto:contact@himanshurajawat.com" },
           ].map(({ icon: Icon, href }, i) => (
             <a
