@@ -61,7 +61,7 @@ const SagwaanSection = () => {
           >
             <div className="aspect-[16/9] rounded-lg overflow-hidden relative shadow-2xl border border-gold/20">
               <img 
-                src="/media/saagwan_poster.png" 
+                src="/saagwan_poster.png" 
                 alt="Sagwaan Movie Poster"
                 className="w-full h-full object-cover"
               />

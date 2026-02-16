@@ -15,7 +15,7 @@ const HeroSection = () => {
         <div className="mb-8 opacity-0 animate-fade-up" style={{ animationDelay: "0.1s" }}>
           <div className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full overflow-hidden border-4 border-gold shadow-2xl">
             <img 
-              src="/media/hero2.png" 
+              src="/hero2.png" 
               alt="Inspector Himanshu Singh Rajawat"
               className="w-full h-full object-cover"
             />
